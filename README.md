@@ -1,2 +1,2 @@
-# Clean-Energy-App
-Implementing a web based app solution for Clean Energy
+# Waste-App
+Implementing a web based app solution for Waste Management 

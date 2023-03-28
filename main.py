@@ -8,14 +8,14 @@ app = Flask(__name__)
 vendors = {'vendor A': {
     "name": "ABC Recycling",
     "address": "23 Bosso Road St, Minna, Niger State",
-    "latitude": 9.6146,
-    "longitude": 6.3659,
+    "latitude": 10.6146,
+    "longitude": 13.3659,
     "phone": "(555) 555-1234"
 }, 'vendor B': {
     "name": "CDE Recycling",
     "address": "456 Gidan kwano St, Maitumbi, Minna, Niger State",
-    "latitude": 9.5900,
-    "longitude": 6.5500,
+    "latitude": 20.5900,
+    "longitude": 26.5500,
     "phone": "(444) 555-1234"
 }, 'vendor B': {
     "name": "FGH Recycling",
@@ -68,5 +68,5 @@ def search():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
 

@@ -4,7 +4,7 @@
     we decided to, improvise. Created a database in form of a dictionary,
     using python dictionary(Google SQL Database). Ask user to input for latitude
     and longitude instead of getting it using(Google Geolocation). Read form
-    input to a csv file instead of a (Google Spreadsheet)
+    input to a txt file instead of a (Google Spreadsheet)
     This codes below are for implementing the google services, they will be commented out
     since they are not used yet.
 """

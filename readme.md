@@ -29,6 +29,7 @@
 - Python 3.0
 - Flask
 - Bootscrap(HTML, CSS, Javascript)
+- Google (Geolocation API, SQL Database, Spreadsheet, Cloud hosting)
 
 
 ## Features
@@ -92,6 +93,7 @@ Room for improvement:
 - Use google to get user location(latitude,longitude)
 - Use a SQL database for holding vendors information
 - Use Spreadsheet to hold user information in spreadsheet format
+- Live hosting
 - Implement as an Android/IOS app
 
 
@@ -99,6 +101,7 @@ To do:
 - Use Google Geolocation API for getting user location(latitude,longitude)
 - Use Google SQL database for holding vendors information
 - Use Google Spreadsheet API to hold user information in speadsheet
+- Use Google Cloud Hosting service 
 - Use flutter to deploy Android/IOS app
 
 

@@ -113,7 +113,7 @@ def get_closest_vendor(user_lat, user_lon, vendors=vendors):
 
 
 # renders the search query results
-@app.route('/', methods=['POST'])
+@app.route('/search', methods=['POST'])
 def search():
     lat = request.form['latitude']
     lon = request.form['longitude']
@@ -122,7 +122,7 @@ def search():
     return render_template('index.html', closest_vendor=closest_vendors, vendors=vendors)
 
 
-@app.route('/', methods=['POST'])
+@app.route('/submit', methods=['POST'])
 def submit():
     # gets input from user
     name = request.form['name']
@@ -130,6 +130,10 @@ def submit():
     address = request.form['address']
     waste_type = request.form['subject']
     desc_msg = request.form['message']
+
+    # writes data to a txt file
+    with open('spreadsheet.txt', 'a') as f:
+        f.write(" {name}, {email}, {address}, {waste_type}, {desc_msg}\n")
 
     submit_msg = 'Submitted'
     # returns the message

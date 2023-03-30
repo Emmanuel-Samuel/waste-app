@@ -243,7 +243,7 @@
               <p>Find our nearest waste drop station close to you, and drop your waste </p>
               <section id="vendors">
                 <h2>Our Vendors</h2>
-                <form id="search-form" method="POST">
+                <form id="search-form" action="/search" method="POST">
                     <div class="form-group">
                         <label for="latitude">Enter your latitude:</label>
                         <input type="text" class="form-control" id="latitude" name="latitude" value={{lat}} ></input>
@@ -271,7 +271,7 @@
               </div>
               <h4><a href="">Pick Up Agents</a></h4>
               <p>Share your location and our agents come pick up your waste</p>
-                <form form method='POST'>
+                <form form method='POST' action="/submit">
                   <div class="row">
                     <div>
                       <label for="name">Your Name</label>

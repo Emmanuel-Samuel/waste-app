@@ -10,16 +10,16 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #534c4c;
 }
 
 a {
   text-decoration: none;
-  color: #5cb874;
+  color: #4b985f;
 }
 
 a:hover {
-  color: #80c792;
+  color: #619f70;
   text-decoration: none;
 }
 
@@ -598,7 +598,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: #877f7f;
 }
 
 /*--------------------------------------------------------------
@@ -828,7 +828,7 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #f4995b;
 }
 
 .services .iconbox-pink i {

@@ -38,7 +38,7 @@
 
 
 ## Screenshots
-![Example screenshot](/sample.jpeg)
+![Example screenshot](/sample.jpg)
 
 
 

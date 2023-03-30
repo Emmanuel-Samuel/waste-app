@@ -1,10 +1,11 @@
 """
-    This app will use Google GeoLocationAPI, Spreadsheet, SQL Database.
+    This app will use Google GeoLocationAPI, Spreadsheet, SQL Database, Cloud Hosting.
     With difficulties getting a biling account to access the api service,
     we decided to, improvise. Created a database in form of a dictionary,
     using python dictionary(Google SQL Database). Ask user to input for latitude
     and longitude instead of getting it using(Google Geolocation). Read form
-    input to a txt file instead of a (Google Spreadsheet)
+    input to a txt file instead of a (Google Spreadsheet), use replit to host for
+    testing but will use google cloud hosting for live hosting.
     This codes below are for implementing the google services, they will be commented out
     since they are not used yet.
 """

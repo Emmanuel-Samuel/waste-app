@@ -131,6 +131,10 @@ def submit():
     waste_type = request.form['subject']
     desc_msg = request.form['message']
 
+    # writes data to a txt file
+    with open('spreadsheet.txt', 'a') as f:
+        f.write(" {name}, {email}, {address}, {waste_type}, {desc_msg}\n")
+
     submit_msg = 'Submitted'
     # returns the message
     return render_template('index.html', submitted=submit_msg)

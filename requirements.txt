@@ -1,1 +1,5 @@
 flask
+requests[security] == 2.9.1
+pandas
+gspread
+Gunicorn

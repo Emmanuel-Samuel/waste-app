@@ -1,6 +1,6 @@
 # Waste App
 > A web app solution for the 12th UN SDG.
-> Live demo [_here_](https://waste-app.mayorkingx.repl.co/)
+> Live demo [_here_](https://waste-app.up.railway.app/)
 
 ## Table of Contents
 - [Waste App](#waste-app)
